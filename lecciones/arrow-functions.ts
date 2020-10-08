@@ -12,7 +12,7 @@ const sumarN = function (a: number, b: number) {
 
 const sumarF = (a:number, b:number) => a + b;
 
-const personaje = {
+const marvel = {
     nombre: "Hulk",
     smash() {
         setTimeout(() => {
@@ -21,4 +21,4 @@ const personaje = {
     }
 }
 
-personaje.smash()
+marvel.smash()
